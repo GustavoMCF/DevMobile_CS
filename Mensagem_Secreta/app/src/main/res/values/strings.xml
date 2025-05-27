@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mensagem Secreta</string>
+    <string name="texto_boasvindas">Sejam bem vindos ao App Mensagem Secretas!!!
+            Use este app para criptografar as suas mensagens.
+            Clique no botão iniciar para começar.
+    </string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="dicas_mensagens">Por favor digita a sua mensagem secreta</string>
+    <string name="btn_proximo">Próximo</string>
+    <string name="texto_criptografado">Aqui está a tua mensagem secreta.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

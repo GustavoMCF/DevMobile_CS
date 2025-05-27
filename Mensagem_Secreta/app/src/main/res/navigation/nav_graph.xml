@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/boasVindasFragment">
+
+    <fragment
+        android:id="@+id/boasVindasFragment"
+        android:name="com.unasp.mensagem_secreta.BoasVindasFragment"
+        android:label="fragment_boas_vindas"
+        tools:layout="@layout/fragment_boas_vindas" >
+        <action
+            android:id="@+id/action_boasVindasFragment_to_messagemFragment"
+            app:destination="@id/messagemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messagemFragment"
+        android:name="com.unasp.mensagem_secreta.MessagemFragment"
+        android:label="fragment_messagem"
+        tools:layout="@layout/fragment_messagem" />
+</navigation>
